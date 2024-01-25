@@ -4,9 +4,9 @@
 /public/hot
 /public/storage
 /storage/*.key
-
 .env
 .env.backup
+composer.lock
 .env.production
 .phpunit.result.cache
 Homestead.json
