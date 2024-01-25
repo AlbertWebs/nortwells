@@ -10,9 +10,9 @@
                 <!-- LOGO -->
                 <div class="logo-container-2">
                    <div class="logo-2">
-                      <a href="#" class="clearfix">
+                      {{-- <a href="#" class="clearfix">
                       <img src="{{url('/')}}/uploads/white.png" class="logo-img" alt="Logo">
-                      </a>
+                      </a> --}}
                    </div>
                 </div>
                 <!-- BUTTON -->
@@ -140,7 +140,7 @@
                       style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap; text-shadow: 1px 1px 0px #000000;">WE ARE <span class="bold">NORTWELL</span>
                    </div>
                    <!-- LAYER NR. 2 -->
-                   {{-- <div class="tp-caption font-white norm-16-wide tp-left sfb tp-resizeme hide-0-736"
+                   <div class="tp-caption font-white norm-16-wide tp-left sfb tp-resizeme hide-0-736"
                       data-x="center"
                       data-hoffset="0"
                       data-y="center"
@@ -152,8 +152,8 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">PORTUGAL<span class="slash-divider-10">/</span>SWITZERLAND
-                   </div> --}}
+                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; text-shadow: 2px 2px 0px #000000; font-size:20px">Law & Investment Firm<span class="slash-divider-10"></span>
+                   </div>
                    <!-- LAYER NR. 3 -->
                    <div class="tp-caption center-0-478 sfb"
                       data-x="center"

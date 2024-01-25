@@ -98,7 +98,7 @@
                       <div class="col-md-3 col-sm-3 widget">
                          <div class="logo-footer-cont">
                             <a href="{{url('/')}}">
-                            <img class="logo-footer" src="{{url('/')}}/uploads/black.png" alt="logo">
+                            <img class="logo-footer" src="{{url('/')}}/uploads/nortwell-logo.png" alt="logo">
                             </a>
                          </div>
 
