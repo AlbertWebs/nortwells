@@ -98,7 +98,7 @@
                 <!-- SLIDE 1 -->
                 <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1000" data-thumb="{{asset('theme/images/revo-slider/video-ocean-cover-320x200.jpg')}}"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="INTRO SLIDE">
                    <!-- MAIN IMAGE -->
-                   <img src="{{url('/')}}/uploads/banner.jpg"  alt="video_woman_cover3"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                   <img src="{{url('/')}}/uploads/banner.png"  alt="video_woman_cover3"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                    <!-- LAYERS -->
                    <!-- LAYER NR.0 1 VIDEO -->
                    <div class="tp-caption tp-fade fadeout fullscreenvideo"
@@ -407,11 +407,14 @@
 
                         <div>
                             <div style="min-height:250px">
-                                    Real Estate Properties<br>
-                                    Commercial Properties<br>
-                                    Guarantee Return Investments<br>
-                                    Investment Funds<br>
-                                    Setting up a Business<br>
+                                <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                                    <p style="font-size:16px;">
+                                        Real Estate Properties<br>
+                                        Commercial Properties<br>
+                                        Guarantee Return Investments<br>
+                                        Investment Funds<br>
+                                        Setting up a Business<br>
+                                    </p></blockquote>
                             </div>
                         </div>
 
@@ -426,13 +429,15 @@
 
                         <div>
                             <div style="min-height:250px">
-
-                                    Legal Consultation and Advisory <br>
-                                    Investment Due Diligence <br>
-                                    Property Sale and Acquisition <br>
-                                    Corporate Law Assistance <br>
-                                    Immigration and Naturalization Support<br>
-
+                                <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                                    <p style="font-size:16px;">
+                                        Legal Consultation and Advisory <br>
+                                        Investment Due Diligence <br>
+                                        Property Sale and Acquisition <br>
+                                        Corporate Law Assistance <br>
+                                        Immigration and Naturalization Support<br>
+                                    </p>
+                                </blockquote>
                             </div>
                         </div>
 
@@ -447,12 +452,15 @@
 
                         <div>
                             <div style="min-height:250px">
-
-                                    Tax Representation<br>
-                                    Bank account opening<br>
-                                    National ID Numbers<br>
-                                    School applications<br>
-                                    Citizenship<br>
+                                <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                                    <p style="font-size:16px;">
+                                        Tax Representation<br>
+                                        Bank account opening<br>
+                                        National ID Numbers<br>
+                                        School applications<br>
+                                        Citizenship<br>
+                                    </p>
+                                </blockquote>
 
 
                             </div>
@@ -469,11 +477,13 @@
 
                         <div>
                             <div style="min-height:200px">
-
-                                    Tax Planning<br>
-
-                                    R&amp;D and Innovation Incentives<br>
-                                    Annual Tax Declaration<br>
+                                <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                                    <p style="font-size:16px;">
+                                        Tax Planning<br>
+                                        R&amp;D and Innovation Incentives<br>
+                                        Annual Tax Declaration<br>
+                                    </p>
+                                </blockquote>
 
                             </div>
                         </div>
@@ -558,11 +568,14 @@
                 </div>
                 <div class="col-md-8">
                    <div class="blog2-post-prev-text">
-                      The Golden Visa program will remain active with certain investment
-                      options. However, you will no longer be able to apply for a Golden Visa
-                      through a real estate investment or a real estate related fund investment.
-                      The new law will not apply retroactively to current applications and
-                      renewals.
+                    <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                        <p style="font-size:16px;">
+                            The Golden Visa program will remain active with certain investment
+                            options. However, you will no longer be able to apply for a Golden Visa
+                            through a real estate investment or a real estate related fund investment.
+                            The new law will not apply retroactively to current applications and
+                            renewals.
+                        </p>
                    </div>
                 </div>
              </div>
@@ -580,7 +593,11 @@
                 </div>
                 <div class="col-md-8">
                    <div class="blog2-post-prev-text">
-                      Portugal most sought out by digital nomads.
+                    <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                        <p style="font-size:16px;">
+                            Portugal most sought out by digital nomads.
+                        </p>
+                    </blockquote>
                    </div>
                 </div>
              </div>
