@@ -137,7 +137,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap; text-shadow: 1px 1px 0px #000000;">WE ARE <span class="bold">NORTWELL</span>
+                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap; ">WE ARE <span class="bold">NORTWELL</span>
                    </div>
                    <!-- LAYER NR. 2 -->
                    <div class="tp-caption font-white norm-16-wide tp-left sfb tp-resizeme hide-0-736"
@@ -152,7 +152,7 @@
                       data-splitout="none"
                       data-elementdelay="0.1"
                       data-endelementdelay="0.1"
-                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; text-shadow: 2px 2px 0px #000000; font-size:20px">Law & Investment Firm<span class="slash-divider-10"></span>
+                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; font-size:20px">Law & Investment Firm<span class="slash-divider-10"></span>
                    </div>
                    <!-- LAYER NR. 3 -->
                    <div class="tp-caption center-0-478 sfb"
@@ -194,20 +194,24 @@
              <div class="row">
                 <div class="col-md-6 col-sm-6 pb-10">
                    <div class="fes5-box wow fadeIn" >
-                      <h3>IMMIGRATION LAW</h3>
-                      <p>Legal assistance and guidance
-                         in immigration, visas,
-                         residency, and citizenship.
-                      </p>
+                      <h3 style="font-family: Lato',Arial,Helvetica,sans-serif">IMMIGRATION LAW</h3>
+                      <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                        <p style="font-size:16px;">Legal assistance and guidance
+                            in immigration, visas,
+                            residency, and citizenship.
+                        </p>
+                      </blockquote>
                    </div>
                 </div>
                 <div class="col-md-6 col-sm-6 pb-10">
                     <div class="fes5-box wow fadeIn"  data-wow-delay="600ms">
-                       <h3>TAX EFFICIENCY</h3>
-                       <p>Tax liability and efficiency
-                          advisory for individuals and
-                          companies.
-                       </p>
+                       <h3 style="font-family: Lato',Arial,Helvetica,sans-serif">TAX EFFICIENCY</h3>
+                       <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                            <p style="font-size:16px;">Tax liability and efficiency
+                            advisory for individuals and
+                            companies.
+                        </p>
+                       </blockquote>
                     </div>
                  </div>
                 {{--  --}}
@@ -215,17 +219,22 @@
              <div class="row">
                 <div class="col-md-6 col-sm-6 pb-10">
                     <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
-                       <h3>LEGAL SERVICES</h3>
-                       <p>
-                        Expert legal counsel and support including consultation, property transactions, corporate law and immigration.
-                       </p>
+                       <h3 style="font-family: Lato',Arial,Helvetica,sans-serif">LEGAL SERVICES</h3>
+                       <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                            <p style="font-size:16px;">
+                                Expert legal counsel and support including consultation, property transactions, corporate law and immigration.
+                            </p>
+                       </blockquote>
                     </div>
                  </div>
                  <div class="col-md-6 col-sm-6 pb-10">
                     <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
                     <h3>RELOCATION SERVICES</h3>
-                    <p>Administrative support in all relocation steps
-                    </p>
+                    <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                        <p style="font-size:16px;">
+                            Administrative support in all relocation steps
+                        </p>
+                    </blockquote>
                     </div>
                 </div>
 
@@ -234,11 +243,14 @@
                 {{--  --}}
                 <div class="col-md-6 col-sm-6 pb-10">
                     <div class="fes5-box wow fadeIn" data-wow-delay="400ms">
-                       <h3>INVESTMENT ADVISORY</h3>
-                       <p>Professional guidance in real
+                       <h3 style="font-family: Lato',Arial,Helvetica,sans-serif">INVESTMENT ADVISORY</h3>
+                       <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                        <p style="font-size:16px;">
+                            Professional guidance in real
                           estate, investment funds and
                           guaranteed yield investments.
                        </p>
+                       </blockquote>
                     </div>
                  </div>
 
@@ -755,7 +767,7 @@
                 </div>
                 <div class="cis-text">
                    <h3><span class="bold">CALL US</span></h3>
-                   <p>+351930433078</p>
+                   <p>+351 913 531 537</p>
                 </div>
              </div>
           </div>
