@@ -98,7 +98,7 @@
                       <div class="col-md-3 col-sm-3 widget">
                          <div class="logo-footer-cont">
                             <a href="{{url('/')}}">
-                            <img class="logo-footer" src="{{url('/')}}/uploads/footer-logo.png" alt="logo">
+                            <img class="logo-footer" src="{{url('/')}}/uploads/black-logo.png" alt="logo">
                             </a>
                          </div>
 
@@ -136,7 +136,7 @@
                       <div class="footer-2-soc-a right">
                          <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
                          <a href="#" title="Facebook" target="_blank"><i class="fa fa-instagram"></i></a>
-                         <a href="#" title="Twitter" target="_blank"><i class="fa fa-x-twitter"></i></a>
+                         <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
                          <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
                       </div>
                       <!-- Copyright -->
