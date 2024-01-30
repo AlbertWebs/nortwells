@@ -98,7 +98,7 @@
                       <div class="col-md-3 col-sm-3 widget">
                          <div class="logo-footer-cont">
                             <a href="{{url('/')}}">
-                            <img class="logo-footer" src="{{url('/')}}/uploads/black-logo.png" alt="logo">
+                            <img class="logo-footer" src="{{url('/')}}/uploads/footer-logo.png" alt="logo">
                             </a>
                          </div>
 
@@ -113,7 +113,7 @@
                       <div class="col-md-3 col-sm-3 widget">
                          <h4>NAVIGATE</h4>
                          <ul class="links-list bold a-text-cont">
-                            <li><a href="{{url('/')}}">HOME</a></li>
+                            <li><a href="{{url('/')}}#home">HOME</a></li>
                             <li><a href="#services">SERVICES</a></li>
 
                          </ul>
@@ -124,7 +124,7 @@
                         <ul class="links-list bold a-text-cont">
 
                            <li><a href="#about">ABOUT</a></li>
-                           <li><a href="#partners">PARTNERS</a></li>
+
                            <li><a href="#contact-us">CONTACT US</a></li>
                         </ul>
                      </div>
@@ -163,14 +163,15 @@
                     <h4 class="modal-title" id="myModalLabel" style="color:  #124f67;">To have access to our Investment Portfolio, please fill in the form </h4>
                 </div>
                 <div class="modal-body"  >
-                    <form #editform="ngForm" id="editform" (ngSubmit)="onEditFormSubmit(editform)">
+                    <form #editform="ngForm" id="editform" method="POST" action="{{url('/')}}/send-message" (ngSubmit)="onEditFormSubmit(editform)">
+                        @csrf
                         <div class="container-fluid">
                             <div class="form-group">
                                 <div class="form-group">
                                    <input required type="text" id="edit" ngModel name="name" placeholder="Name" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                   <input required type="email" id="edit" ngModel name="email" placeholder="email" class="form-control">
+                                   <input required type="email" id="edit" ngModel name="email" placeholder="Email" class="form-control">
                                 </div>
                                 <div class="form-group">
                                      <input required type="text" id="edit" ngModel name="nationality" placeholder="Nationality" class="form-control">
@@ -179,7 +180,7 @@
                                     <input required type="text" id="edit" ngModel name="residence" placeholder="Country of Residence" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <select class="form-control">
+                                    <select class="form-control" name=service>
                                         <option selected disabled value="Investment Type">
                                             Investment Type
                                         </option>
@@ -197,7 +198,7 @@
                                         </option>
                                     </select>
                                 </div>
-                                <button class="btn "  type="button">Submit</button>
+                                <button class="btn "  type="submit">Submit</button>
                             </div>
                         </div>
                     </form>

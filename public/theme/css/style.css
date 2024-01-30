@@ -3106,10 +3106,10 @@ select.input-border {
   max-height:60px;
 }
 .logo-footer-cont{
-  margin-bottom:50px;
+  margin-bottom:10px;
 }
 .footer-2-text-cont {
-  margin-bottom:24px;
+  margin-bottom:8px;
 }
 .widget h4 {
   margin-top: 16px;
@@ -3923,10 +3923,11 @@ header.affix .logo .logo-img {
   margin-bottom:30px;
 }
 .newsletterform {
-	float:right;
+	/* float:right; */
 	border: none;
 	margin:0;
 	padding:0;
+    text-align: center;
 }
 .nl-email-input {
 	width:350px;

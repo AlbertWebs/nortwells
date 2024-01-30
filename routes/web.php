@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,7 @@ Route::get('/more', function () {
     return view('welcomebackup');
 });
 
+Route::get('/send-message', function () {
+    return view('send-message');
+});
+Route::post('send-message',[HomeController::class,'message'])->name('send.message');

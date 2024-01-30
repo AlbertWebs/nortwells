@@ -8,9 +8,9 @@
             <div class="logo-row">
                <!-- LOGO -->
                <div class="logo-container-2">
-                  <div class="logo-2" style="visibility:hidden">
+                  <div class="logo-2" style="visibility:hiddens">
                      <a href="#" class="clearfix">
-                     <img src="{{url('/')}}/uploads/white.png" class="logo-img" alt="Logo">
+                     <img src="{{url('/')}}/uploads/nortwell-logo.jpg" class="logo-img" alt="Logo">
                      </a>
                   </div>
                </div>
@@ -77,9 +77,9 @@
          </div>
          <!-- END main-menu-container -->
          <!-- SEARCH READ DOCUMENTATION -->
-         <ul class="cd-header-buttons">
+         {{-- <ul class="cd-header-buttons">
             <li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
-         </ul>
+         </ul> --}}
          <!-- cd-header-buttons -->
          <div id="cd-search" class="cd-search">
             <form class="form-search" id="searchForm" action="page-search-results.html" method="get">
@@ -97,7 +97,7 @@
                <!-- SLIDE 1 -->
                <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1000" data-thumb="{{asset('theme/images/revo-slider/video-ocean-cover-320x200.jpg')}}"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="INTRO SLIDE">
                   <!-- MAIN IMAGE -->
-                  <img src="{{url('/')}}/uploads/bannerz.jpg"  alt="video_woman_cover3"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                  <img src="{{url('/')}}/uploads/banner.jpg"  alt="video_woman_cover3"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                   <!-- LAYERS -->
                   <!-- LAYER NR.0 1 VIDEO -->
                   <div class="tp-caption tp-fade fadeout fullscreenvideo"
@@ -153,10 +153,10 @@
                      data-splitout="none"
                      data-elementdelay="0.1"
                      data-endelementdelay="0.1"
-                     style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; font-size:16px">Law & Investment Firm<span class="slash-divider-10"></span>
+                     style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; font-size:20px">Law & Investment Firm<span class="slash-divider-10"></span>
                   </div>
                   <!-- LAYER NR. 3 -->
-                  <div class="tp-caption center-0-478 sfb"
+                  {{-- <div class="tp-caption center-0-478 sfb"
                      data-x="center"
                      data-hoffset="0"
                      data-y="center"
@@ -169,7 +169,7 @@
                      data-elementdelay="0.1"
                      data-endelementdelay="0.1"
                      style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium thin hover-dark tp-button white" href="#">SEE MORE</a><a class="button medium thin hover-dark tp-button white ml-20" href="#">CONTACT US</a>
-                  </div>
+                  </div> --}}
                </li>
             </ul>
          </div>
@@ -205,15 +205,21 @@
                   </div>
                </div>
                <div class="col-md-6 col-sm-6 pb-10">
-                  <div class="fes5-box wow fadeIn"  data-wow-delay="600ms">
-                     <h3 style="font-family: Lato',Arial,Helvetica,sans-serif">TAX EFFICIENCY</h3>
-                     <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
-                        <p style="font-size:16px;">Tax liability and efficiency
-                           advisory for individuals and
-                           companies.
-                        </p>
-                     </blockquote>
-                  </div>
+                {{--  --}}
+
+                    <div class="fes5-box wow fadeIn" data-wow-delay="400ms">
+                       <h3 style="font-family: Lato',Arial,Helvetica,sans-serif">INVESTMENT ADVISORY</h3>
+                       <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                          <p style="font-size:16px;">
+                             Professional guidance in real
+                             estate, investment funds and
+                             guaranteed yield investments.
+                          </p>
+                       </blockquote>
+
+                 </div>
+                {{--  --}}
+
                </div>
                {{--  --}}
             </div>
@@ -241,18 +247,15 @@
             </div>
             <div class="row">
                {{--  --}}
-               <div class="col-md-6 col-sm-6 pb-10">
-                  <div class="fes5-box wow fadeIn" data-wow-delay="400ms">
-                     <h3 style="font-family: Lato',Arial,Helvetica,sans-serif">INVESTMENT ADVISORY</h3>
-                     <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
-                        <p style="font-size:16px;">
-                           Professional guidance in real
-                           estate, investment funds and
-                           guaranteed yield investments.
-                        </p>
-                     </blockquote>
-                  </div>
-               </div>
+               <div class="fes5-box wow fadeIn"  data-wow-delay="600ms">
+                <h3 style="font-family: Lato',Arial,Helvetica,sans-serif">TAX EFFICIENCY</h3>
+                <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                   <p style="font-size:16px;">Tax liability and efficiency
+                      advisory for individuals and
+                      companies.
+                   </p>
+                </blockquote>
+             </div>
                {{--  --}}
                <div class="col-md-6 col-sm-6 pb-10">
                </div>
@@ -528,7 +531,7 @@
                 <a  data-toggle="modal" data-target=".bs-example-modal-lg-6">
                     <div class="col-md-6 col-sm-6" >
                        <div class="fes7-box wow fadeIn" >
-                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">EXPRESS OF INTEREST Residence Permit</h3>
+                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">Express of Interest Residence Permit</h3>
                           <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
                              It is aimed at citizens of the Community of Portuguese-Speaking Countries (EXPRESS OF INTEREST).
                           </p>
@@ -601,14 +604,12 @@
          </div>
       </div>
       <!--end of row-->
-      <div class="text-center">
-         <a href="#contact-us" class="button small gray">Begin here</a>
-      </div>
+
    </div>
 </div>
 <!-- FEATURES 8 -->
 {{--  --}}
-<div class="page-section pt-110-cont">
+<div class="page-section" style="padding-top:50px">
    <div class="container">
       <!-- FEATURES 8 -->
       <div class="row">
@@ -742,7 +743,7 @@
 <div class="page-section pt-110-b-30-cont grey-light-bg" id="news">
    <div class="container">
       <div class="mb-50">
-         <h2 class="section-title pr-0">Updates <span class="bold"></span><a href="blog-right-sidebar.html" class="section-more right">Updates</a>
+         <h2 class="section-title pr-0">Updates <span class="bold"></span>
          </h2>
       </div>
       <div class="row">
@@ -994,7 +995,7 @@
                <input type="email" value="" name="EMAIL" class="email nl-email-input" id="mce-EMAIL" placeholder="Enter your email" required>
                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
-               <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button medium gray">
+               <input type="submit" value="OUR NEWSLETTER" name="subscribe" id="mc-embedded-subscribe" class="button medium gray">
             </form>
             <div id="notification_container"  ></div>
          </div>
