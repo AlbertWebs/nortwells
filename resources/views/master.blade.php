@@ -92,10 +92,10 @@
             @yield('content')
 
             <!-- FOOTER 2 -->
-            <footer class="page-section pt-80 pb-50">
+            <footer class="page-section pt-40">
                 <div class="container">
                    <div class="row">
-                      <div class="col-md-3 col-sm-3 widget">
+                      <div class="col-md-2 col-sm-3 widget">
                          <div class="logo-footer-cont">
                             <a href="{{url('/')}}">
                             <img class="logo-footer" src="{{url('/')}}/uploads/footer-logo.png" alt="logo">
@@ -110,24 +110,24 @@
                             <a class="a-text" href="mailto:info@nortwell.pt">info@nortwell.pt</a>
                          </div>
                       </div>
-                      <div class="col-md-3 col-sm-3 widget">
+                      <div class="col-md-2 col-sm-6 widget">
                          <h4>NAVIGATE</h4>
                          <ul class="links-list bold a-text-cont">
                             <li><a href="{{url('/')}}#home">HOME</a></li>
                             <li><a href="#services">SERVICES</a></li>
-
                          </ul>
                       </div>
-
-                      <div class="col-md-3 col-sm-3 widget">
-                        <h4>NAVIGATE</h4>
+                      <div class="col-md-2 col-sm-6 widget">
+                        <h4 style="visibility: hidden">NAVIGATE</h4>
                         <ul class="links-list bold a-text-cont">
-
-                           <li><a href="#about">ABOUT</a></li>
-
-                           <li><a href="#contact-us">CONTACT US</a></li>
-                        </ul>
-                     </div>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#contact-us">CONTACT US</a></li>
+                         </ul>
+                      </div>
+                      <div class="col-md-6 col-sm-3" style="-webkit-filter: grayscale(100%);
+                        filter: grayscale(100%);">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.5256919924814!2d-8.6153826!3d41.1448791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24651df585cf2f%3A0x1a87b9b92c823ec2!2sCampo%20dos%20M%C3%A1rtires%20da%20P%C3%A1tria%20144%2C%204050-378%20Porto!5e0!3m2!1spt-PT!2spt!4v1694159511668!5m2!1spt-PT!2spt" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
 
 
                    </div>

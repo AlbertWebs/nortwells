@@ -10,7 +10,7 @@
                <div class="logo-container-2">
                   <div class="logo-2" style="visibility:hiddens">
                      <a href="#" class="clearfix">
-                     <img src="{{url('/')}}/uploads/nortwell-logo.jpg" class="logo-img" alt="Logo">
+                     <img src="{{url('/')}}/uploads/logo-nortwell-clear.png" class="logo-img" alt="Logo">
                      </a>
                   </div>
                </div>
@@ -97,7 +97,7 @@
                <!-- SLIDE 1 -->
                <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1000" data-thumb="{{asset('theme/images/revo-slider/video-ocean-cover-320x200.jpg')}}"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="INTRO SLIDE">
                   <!-- MAIN IMAGE -->
-                  <img src="{{url('/')}}/uploads/banner.jpg"  alt="video_woman_cover3"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                  <img src="{{url('/')}}/uploads/bannerz.jpg"  alt="video_woman_cover3"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                   <!-- LAYERS -->
                   <!-- LAYER NR.0 1 VIDEO -->
                   <div class="tp-caption tp-fade fadeout fullscreenvideo"
@@ -247,15 +247,16 @@
             </div>
             <div class="row">
                {{--  --}}
-               <div class="fes5-box wow fadeIn"  data-wow-delay="600ms">
-                <h3 style="font-family: Lato',Arial,Helvetica,sans-serif">TAX EFFICIENCY</h3>
-                <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
-                   <p style="font-size:16px;">Tax liability and efficiency
-                      advisory for individuals and
-                      companies.
-                   </p>
-                </blockquote>
-             </div>
+               <div class="col-md-6 col-sm-6 pb-10">
+                  <div class="fes5-box wow fadeIn"  data-wow-delay="600ms">
+                  <h3 style="font-family: Lato',Arial,Helvetica,sans-serif">TAX EFFICIENCY</h3>
+                  <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
+                     <p style="font-size:16px;">Tax liability and efficiency
+                        advisory for individuals and
+                        companies.
+                     </p>
+                  </blockquote>
+               </div>
                {{--  --}}
                <div class="col-md-6 col-sm-6 pb-10">
                </div>
@@ -533,7 +534,7 @@
                        <div class="fes7-box wow fadeIn" >
                         <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">Express of Interest Residence Permit</h3>
                           <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                             It is aimed at citizens of the Community of Portuguese-Speaking Countries (EXPRESS OF INTEREST).
+                             It is aimed at citizens of the Community of Portuguese-Speaking Countries.
                           </p>
                        </div>
                     </div>
@@ -740,7 +741,7 @@
 <div class="port-view-more-cont-dark">
    <a class="port-view-more-dark " href="#contact-us">LET'S BEGIN TOGETHER</a>
 </div>
-<div class="page-section pt-110-b-30-cont grey-light-bg" id="news">
+<div class="page-section pt-110-b-30-cont white-light-bg" id="news">
    <div class="container">
       <div class="mb-50">
          <h2 class="section-title pr-0">Updates <span class="bold"></span>
@@ -847,7 +848,7 @@
 </div>
 --}}
 {{--  --}}
-<div class="page-section gray-bg" id="contact-us">
+<div class="page-section gray-bg" id="contact-us" style="background-image: url('/')">
    <div class="container-fluid">
       <div class="row" >
          <div class="col-md-12" style="margin:0 auto;">
