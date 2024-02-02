@@ -24,4 +24,16 @@ Route::get('/more', function () {
 Route::get('/send-message', function () {
     return view('send-message');
 });
+
+
+
+
+Route::post('begin-here',[HomeController::class,'begin'])->name('send.message.begin');
 Route::post('send-message',[HomeController::class,'message'])->name('send.message');
+
+// Clear Cache
+Route::get('/clear-cache', function () {
+    $exitCode = Artisan::call('cache:clear');
+    $exitCode = Artisan::call('config:cache');
+    return 'Cache cleared';
+});

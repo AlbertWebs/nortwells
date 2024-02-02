@@ -20,17 +20,17 @@ class SendMail extends Model
         );
 
         $appName = "Nortwell";
-        $appEmail = "info@nortwell.pt";
+        $appEmail = "marlenedosreis0@gmail.com";
 
-        $FromVariable = "mail@nortwell.pt";
+        $FromVariable = "marlenedosreis0@gmail.com";
         $FromVariableName = $appName;
         $toVariable = $appEmail;
-        $toVariableName = "info@nortwell.pt";
+        $toVariableName = "marlenedosreis0@gmail.com";
 
 
         Mail::send('mailTheme', $data, function($message) use ($subject,$FromVariable,$FromVariableName,$toVariable,$toVariableName,$email,$name){
             $message->from($FromVariable , $FromVariableName);
-            $message->to($toVariable, $toVariableName)->cc('albertmuhatia@gmail.com')->replyTo($email, $name)->subject($subject);
+            $message->to($toVariable, $toVariableName)->replyTo($email, $name)->subject($subject);
         });
     }
 }

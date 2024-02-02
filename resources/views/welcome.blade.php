@@ -859,7 +859,8 @@
                </div>
                <!-- CONTACT FORM -->
                <div class="">
-                  <form id="contact-form" action="#" method="POST">
+                  <form id="contact-form" action="{{url('/')}}/begin-here" method="POST">
+                    @csrf
                      <div class="row">
                         <div class="col-md-12 mb-30">
                            <!-- <label>Your name *</label> -->
@@ -875,7 +876,7 @@
                      <div class="row">
                         <div class="col-md-12 mb-30">
                            <!-- <label>Your email address *</label> -->
-                           <input type="text" value="" data-msg-required="Your Nationality" data-msg-email="Your Nationality" maxlength="100" class="controled" name="email" id="email" placeholder="Nationality" required>
+                           <input type="text" value="" data-msg-required="Your Nationality" data-msg-email="Your Nationality" maxlength="100" class="controled" name="nationality" id="email" placeholder="Nationality" required>
                         </div>
                      </div>
                      <div class="row">
@@ -887,7 +888,7 @@
                      <div class="row">
                         <div class="col-md-12 mb-30">
                            <label>Service *</label>
-                           <select>
+                           <select name="service">
                               <option disabled select="selected">
                                  Select Service
                               </option>
@@ -913,10 +914,10 @@
                         <label>Available for a Meeting</label>
                         <div class="row">
                            <div class="col-md-6 mb-30">
-                              <input type="date" value="" data-msg-required="Date" data-msg-email="Date" maxlength="100" class="controled" name="email" id="email" placeholder="Date" required>
+                              <input type="date" value="" data-msg-required="Date" data-msg-email="Date" maxlength="100" class="controled" name="date" id="email" placeholder="Date" required>
                            </div>
                            <div class="col-md-6 mb-30">
-                              <input type="time" value="" data-msg-required="Time" data-msg-email="Time" maxlength="100" class="controled" name="email" id="email" placeholder="Time" required>
+                              <input type="time" value="" data-msg-required="Time" data-msg-email="Time" maxlength="100" class="controled" name="time" id="email" placeholder="Time" required>
                            </div>
                         </div>
                      </div>

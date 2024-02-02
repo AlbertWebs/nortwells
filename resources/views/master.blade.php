@@ -128,8 +128,6 @@
                         filter: grayscale(100%);">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.5256919924814!2d-8.6153826!3d41.1448791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24651df585cf2f%3A0x1a87b9b92c823ec2!2sCampo%20dos%20M%C3%A1rtires%20da%20P%C3%A1tria%20144%2C%204050-378%20Porto!5e0!3m2!1spt-PT!2spt!4v1694159511668!5m2!1spt-PT!2spt" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                       </div>
-
-
                    </div>
                    <div class="footer-2-copy-cont clearfix">
                       <!-- Social Links -->
