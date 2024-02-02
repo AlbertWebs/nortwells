@@ -235,6 +235,11 @@
       <!-- JS begin -->
       <!-- jQuery  -->
       <script src="{{asset('theme/js/jquery-1.11.2.min.js')}}"></script>
+      {{--  --}}
+      <script>
+                $('#mydiv').delay(5000).delay(3200).fadeOut(300);
+        </script>
+      {{--  --}}
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="{{asset('theme/js/bootstrap.min.js')}}"></script>
       <!-- MAGNIFIC POPUP -->
@@ -257,6 +262,7 @@
       <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
       <script src="{{asset('theme/rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
       <script src="{{asset('theme/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
+
       <!-- SLIDER REVOLUTION INIT  -->
       <script>
          jQuery(document).ready(function() {
@@ -342,5 +348,6 @@
          });	//ready
 
       </script>
+
    </body>
 </html>

@@ -1,5 +1,15 @@
 @extends('master')
 @section('content')
+
+    <center>
+            @if(Session::has('message'))
+                <div id="mydiv" class="alert alert-success" style="margin-bottom: 0;">
+                    {{ Session::get('message') }}
+                </div>
+            @endif
+    </center>
+
+
 <div class="header-transporent-bg-black">
    <!-- HEADER -->
    <header id="nav" class="header header-1 black-header">
