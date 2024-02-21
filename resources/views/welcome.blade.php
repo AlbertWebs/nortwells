@@ -192,7 +192,7 @@
    </div>
 </div>
 <!-- FEATURES 5 & TESTIMONIALS 1 -->
-<div id="about" class="page-section p-110-cont">
+<div id="about" class="page-section p-50-cont">
    <div class="container">
       <div class="row">
          <!-- TESTIMONIALS -->
@@ -279,6 +279,7 @@
          </div>
       </div>
    </div>
+   <br><br>
 </div>
 <style>
    .fes7-box{
@@ -313,8 +314,8 @@
                <a  data-toggle="modal" data-target=".bs-example-modal-lg">
                   <div class="col-md-6 col-sm-6" style="min-height:200">
                      <div class="fes7-box wow fadeIn" >
-                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D2 Entrepreneur Visa</h3>
-                        <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
+                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal;">D2 Entrepreneur Visa</h3>
+                        <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal" >
                            Aimed at providing authorization for foreigners (non-EU/EEA/Swiss) who have invested or want to make an investment operation through financial means available in Portugal.
                         </p>
                      </div>
@@ -353,7 +354,7 @@
                   <div class="col-md-6 col-sm-6" style="min-height:200">
                      <div class="fes7-box wow fadeIn" >
                         <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D3 Highly Qualified Individuals Visa</h3>
-                        <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
+                        <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal" >
                            Aimed at non-EU citizens with higher education or higher professional technical qualifications - who have a work contract or a promise of work contract for at least 12 months.
                         </p>
                      </div>
@@ -397,7 +398,7 @@
                     <div class="col-md-6 col-sm-6" >
                        <div class="fes7-box wow fadeIn" >
                         <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D4 Study Visa</h3>
-                          <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
+                          <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal" >
                              Aimed at foreign citizens who intend to enroll in a university or a Polytechnic Education Institution.
                           </p>
                        </div>
@@ -473,6 +474,7 @@
                         <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D7 Passive Income Visa</h3>
                           <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
                              Aimed at non-EU/EEA/Swiss citizen who intend to relocate to Portugal and have a reasonable net regular passive income.
+                             <br><br><br><br>
                           </p>
                        </div>
                     </div>
