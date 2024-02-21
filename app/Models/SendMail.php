@@ -25,7 +25,7 @@ class SendMail extends Model
         $FromVariable = "marlenedosreis0@gmail.com";
         $FromVariableName = $appName;
         $toVariable = $appEmail;
-        $toVariableName = "marlenedosreis0@gmail.com";
+        $toVariableName = "nortwellllc@gmail.com";
 
 
         Mail::send('mailTheme', $data, function($message) use ($subject,$FromVariable,$FromVariableName,$toVariable,$toVariableName,$email,$name){

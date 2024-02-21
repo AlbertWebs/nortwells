@@ -150,8 +150,9 @@
                      data-endelementdelay="0.1"
                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap; ">WE ARE <span class="bold">NORTWELL</span>
                   </div>
+                  <center>
                   <!-- LAYER NR. 2 -->
-                  <div class="tp-caption font-white norm-16-wide tp-left sfb tp-resizeme hide-0-736"
+                  <div class="tp-caption font-white norm-16-wide tp-lefat sfb tp-resizeme hide-0-736"
                      data-x="center"
                      data-hoffset="0"
                      data-y="center"
@@ -163,8 +164,9 @@
                      data-splitout="none"
                      data-elementdelay="0.1"
                      data-endelementdelay="0.1"
-                     style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; font-size:20px">Law & Investment Firm<span class="slash-divider-10"></span>
+                     style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; font-size:20px; margin:0 auto !important;">Law & Investment Firm<span class="slash-divider-10"></span>
                   </div>
+                  </center>
                   <!-- LAYER NR. 3 -->
                   {{-- <div class="tp-caption center-0-478 sfb"
                      data-x="center"
