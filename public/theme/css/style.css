@@ -11225,9 +11225,24 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   height:200px;
 }
 
+
 .client-row img{
     /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   /* filter: invert(100%) grayscale(1); */
 }
 
+@media only screen and (max-width: 568px){
+    .slider-title{
+        vertical-align: middle !important;
+        top:45% !important
+    }
+    .slider-text{
+        vertical-align: middle !important;
+        top:60% !important;
+        font-size:20px !important;
+    }
+    .logo-2{
+        padding-top:24px;
+    }
+}

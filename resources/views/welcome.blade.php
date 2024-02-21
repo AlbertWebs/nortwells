@@ -135,8 +135,10 @@
                      </video>
                      --}}
                   </div>
+
+                  <center>
                   <!-- LAYER NR. 1 -->
-                  <div class="tp-caption font-white light-73-wide sfb tp-resizeme"
+                  <div class="tp-caption font-white light-73-wide sfb tp-resizeme slider-title"
                      data-x="center"
                      data-hoffset="0"
                      data-y="center"
@@ -150,9 +152,10 @@
                      data-endelementdelay="0.1"
                      style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap; ">WE ARE <span class="bold">NORTWELL</span>
                   </div>
+                  </center>
                   <center>
                   <!-- LAYER NR. 2 -->
-                  <div class="tp-caption font-white norm-16-wide tp-lefat sfb tp-resizeme hide-0-736"
+                  <div class="tp-caption font-white norm-16-wide tp-lefat sfb tp-resizeme hide-0-736 slider-text"
                      data-x="center"
                      data-hoffset="0"
                      data-y="center"
