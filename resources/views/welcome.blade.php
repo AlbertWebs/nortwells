@@ -865,100 +865,96 @@
 </div>
 --}}
 {{--  --}}
-<div class="page-section gray-bg" id="contact-us" style="background-image: url('/')">
-   <div class="container-fluid">
-      <div class="row" >
-         <div class="col-md-12" style="margin:0 auto;">
-            <div class="contact-form-cont" style="margin:0 auto;">
-               <!-- TITLE -->
-               <div class="mb-40">
-                  <h2 class="section-title">BEGIN  <span class="bold">HERE</span></h2>
+<div class="page-section" id="contact-us" style="background-image: url('{{url('/')}}/uploads/bannerz.jpg'); background-size:cover; background-repeat:no-repeat">
+      <div class="container">
+         <div class="row mb-40 mt-40" >
+               <div class="contact-form-cont gray-bg" style="margin:0 auto !important">
+                        <!-- TITLE -->
+                        <div>
+                            <h2 class="section-title">BEGIN  <span class="bold">HERE</span></h2>
+                        </div>
+                        <!-- CONTACT FORM -->
+                        <form id="contact-form" action="{{url('/')}}/begin-here" method="POST">
+                           @csrf
+                            <div class="row">
+                            <div class="col-md-12 mb-30">
+                                <!-- <label>Your name *</label> -->
+                                <input type="text" value="" data-msg-required="Please enter your name" maxlength="100" class="controled" name="name" id="name" placeholder="Name" required>
+                            </div>
+                            </div>
+                            <div class="row">
+                            <div class="col-md-12 mb-30">
+                                <!-- <label>Your email address *</label> -->
+                                <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="controled" name="email" id="email" placeholder="Email" required>
+                            </div>
+                            </div>
+                            <div class="row">
+                            <div class="col-md-12 mb-30">
+                                <!-- <label>Your email address *</label> -->
+                                <input type="text" value="" data-msg-required="Your Nationality" data-msg-email="Your Nationality" maxlength="100" class="controled" name="nationality" id="email" placeholder="Nationality" required>
+                            </div>
+                            </div>
+                            <div class="row">
+                            <div class="col-md-12 mb-30">
+                                <!-- <label>Your email address *</label> -->
+                                <input type="text" value="" data-msg-required="Your Nationality" data-msg-email="Your Nationality" maxlength="100" class="controled" name="residence" id="email" placeholder="Country of Residence" required>
+                            </div>
+                            </div>
+                            <div class="row">
+                            <div class="col-md-12 mb-30">
+                                <label>Service *</label>
+                                <select name="service">
+                                    <option disabled select="selected">
+                                        Select Service
+                                    </option>
+                                    <option value="Immigration Law">
+                                        Immigration Law
+                                    </option>
+                                    <option value="Legal Services">
+                                        Legal Services
+                                    </option>
+                                    <option value="Investment Advisory">
+                                        Investment Advisory
+                                    </option>
+                                    <option value="Relocation Services">
+                                        Relocation Services
+                                    </option>
+                                    <option value="Tax Efficiency">
+                                        Tax Efficiency
+                                    </option>
+                                </select>
+                            </div>
+                            </div>
+                            <div class="row">
+                            <label>Available for a Meeting</label>
+                            <div class="row">
+                                <div class="col-md-6 mb-30">
+                                    <input type="date" value="" data-msg-required="Date" data-msg-email="Date" maxlength="100" class="controled" name="date" id="email" placeholder="Date" required>
+                                </div>
+                                <div class="col-md-6 mb-30">
+                                    <input type="time" value="" data-msg-required="Time" data-msg-email="Time" maxlength="100" class="controled" name="time" id="email" placeholder="Time" required>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="row">
+                            <div class="col-md-12 mb-40">
+                                <!-- <label>Message *</label> -->
+                                <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="controled" name="message" id="message" placeholder="MESSAGE" required></textarea>
+                            </div>
+                            </div>
+                            <div class="row">
+                            <div class="col-md-12 text-center-xxs">
+                                <input type="submit" value="SEND MESSAGE" class="button medium gray" data-loading-text="Loading...">
+                            </div>
+                            </div>
+                        </form>
+                        <div class="alert alert-success hidden animated fadeIn" id="contactSuccess" >
+                            <strong>Success!</strong> Your message has been sent to us.
+                        </div>
+                        <div class="alert alert-danger hidden animated shake" id="contactError">
+                            <strong>Error!</strong> There was an error sending your message.
+                        </div>
                </div>
-               <!-- CONTACT FORM -->
-               <div class="">
-                  <form id="contact-form" action="{{url('/')}}/begin-here" method="POST">
-                    @csrf
-                     <div class="row">
-                        <div class="col-md-12 mb-30">
-                           <!-- <label>Your name *</label> -->
-                           <input type="text" value="" data-msg-required="Please enter your name" maxlength="100" class="controled" name="name" id="name" placeholder="Name" required>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-12 mb-30">
-                           <!-- <label>Your email address *</label> -->
-                           <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="controled" name="email" id="email" placeholder="Email" required>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-12 mb-30">
-                           <!-- <label>Your email address *</label> -->
-                           <input type="text" value="" data-msg-required="Your Nationality" data-msg-email="Your Nationality" maxlength="100" class="controled" name="nationality" id="email" placeholder="Nationality" required>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-12 mb-30">
-                           <!-- <label>Your email address *</label> -->
-                           <input type="text" value="" data-msg-required="Your Nationality" data-msg-email="Your Nationality" maxlength="100" class="controled" name="residence" id="email" placeholder="Country of Residence" required>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-12 mb-30">
-                           <label>Service *</label>
-                           <select name="service">
-                              <option disabled select="selected">
-                                 Select Service
-                              </option>
-                              <option value="Immigration Law">
-                                 Immigration Law
-                              </option>
-                              <option value="Legal Services">
-                                 Legal Services
-                              </option>
-                              <option value="Investment Advisory">
-                                 Investment Advisory
-                              </option>
-                              <option value="Relocation Services">
-                                 Relocation Services
-                              </option>
-                              <option value="Tax Efficiency">
-                                 Tax Efficiency
-                              </option>
-                           </select>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <label>Available for a Meeting</label>
-                        <div class="row">
-                           <div class="col-md-6 mb-30">
-                              <input type="date" value="" data-msg-required="Date" data-msg-email="Date" maxlength="100" class="controled" name="date" id="email" placeholder="Date" required>
-                           </div>
-                           <div class="col-md-6 mb-30">
-                              <input type="time" value="" data-msg-required="Time" data-msg-email="Time" maxlength="100" class="controled" name="time" id="email" placeholder="Time" required>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-12 mb-40">
-                           <!-- <label>Message *</label> -->
-                           <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="controled" name="message" id="message" placeholder="MESSAGE" required></textarea>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-12 text-center-xxs">
-                           <input type="submit" value="SEND MESSAGE" class="button medium gray" data-loading-text="Loading...">
-                        </div>
-                     </div>
-                  </form>
-                  <div class="alert alert-success hidden animated fadeIn" id="contactSuccess" >
-                     <strong>Success!</strong> Your message has been sent to us.
-                  </div>
-                  <div class="alert alert-danger hidden animated shake" id="contactError">
-                     <strong>Error!</strong> There was an error sending your message.
-                  </div>
-               </div>
-            </div>
-         </div>
       </div>
    </div>
 </div>
