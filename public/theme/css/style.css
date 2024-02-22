@@ -11248,4 +11248,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
     .logo-2{
         padding-top:24px;
     }
+    .contact-form-cont {
+      max-width:80%;
+    }
 }
