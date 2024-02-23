@@ -926,15 +926,17 @@
                             </div>
                             </div>
                             <div class="row">
-                            <label>Available for a Meeting</label>
-                            <div class="row">
-                                <div class="col-md-6 mb-30">
-                                    <input type="date" value="" data-msg-required="Date" data-msg-email="Date" maxlength="100" class="controled" name="date" id="email" placeholder="Date" required>
+                                <div class="col-md-12 mb-30">
+                                    <label>Available for a Meeting</label>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-30">
+                                            <input type="date" value="" data-msg-required="Date" data-msg-email="Date" maxlength="100" class="controled" name="date" id="email" placeholder="Date" required>
+                                        </div>
+                                        <div class="col-md-6 mb-30">
+                                            <input type="time" value="" data-msg-required="Time" data-msg-email="Time" maxlength="100" class="controled" name="time" id="email" placeholder="Time" required>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 mb-30">
-                                    <input type="time" value="" data-msg-required="Time" data-msg-email="Time" maxlength="100" class="controled" name="time" id="email" placeholder="Time" required>
-                                </div>
-                            </div>
                             </div>
                             <div class="row">
                             <div class="col-md-12 mb-40">
