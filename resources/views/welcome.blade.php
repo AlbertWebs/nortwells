@@ -927,7 +927,7 @@
                             </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-12 mb-30">
+                                <div class="col-md-12">
                                     <label>Available for a Meeting</label>
                                     <br><br>
                                     <div class="row">
@@ -944,8 +944,8 @@
                             </div>
                             <div class="row">
                             <div class="col-md-12 mb-40">
-                                <!-- <label>Message *</label> -->
-                                <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="controled" name="message" id="message" placeholder="MESSAGE" required></textarea>
+                                <label>Message *</label>
+                                <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="controled" name="message" id="message" placeholder="" required></textarea>
                             </div>
                             </div>
                             <div class="row">
