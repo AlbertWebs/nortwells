@@ -870,9 +870,10 @@
          <div class="row mb-40 mt-40" >
                <div class="contact-form-cont gray-bg" style="margin:0 auto !important">
                         <!-- TITLE -->
-                        <div>
+                        <div style="margin-top:-60px">
                             <h2 class="section-title">BEGIN  <span class="bold">HERE</span></h2>
                         </div>
+                        <br>
                         <!-- CONTACT FORM -->
                         <form id="contact-form" action="{{url('/')}}/begin-here" method="POST">
                            @csrf
@@ -929,10 +930,12 @@
                                 <div class="col-md-12 mb-30">
                                     <label>Available for a Meeting</label>
                                     <div class="row">
-                                        <div class="col-md-6 mb-30">
+                                        <div class="col-lg-6 col-md-6 mb-30">
+                                            <label>Date</label>
                                             <input type="date" value="" data-msg-required="Date" data-msg-email="Date" maxlength="100" class="controled" name="date" id="email" placeholder="Date" required>
                                         </div>
-                                        <div class="col-md-6 mb-30">
+                                        <div class="col-lg-6 col-md-6 mb-30">
+                                            <label>Hour</label>
                                             <input type="time" value="" data-msg-required="Time" data-msg-email="Time" maxlength="100" class="controled" name="time" id="email" placeholder="Time" required>
                                         </div>
                                     </div>
