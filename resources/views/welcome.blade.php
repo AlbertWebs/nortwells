@@ -507,9 +507,9 @@
                     </div>
                  </div>
                  {{--  --}}
-                 <a  data-toggle="modal" data-target=".bs-example-modal-lg-5">
+                 <a  data-toggle="modal" data-target=".bs-example-modal-lg-5" class="pull-up-mobile">
                     <div class="col-md-6 col-sm-6" >
-                       <div class="fes7-box wow fadeIn" >
+                       <div class="fes7-box wow fadeIn pull-up-mobile" >
                         <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D8 Digital Nomad Visa</h3>
                           <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
                              Aimed at non-EU/EEA/Swiss citizens digital nomads, freelancers, and remote workers.
@@ -651,7 +651,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="col-xs-12 col-sm-3 col-md-3 pull-up-mobiles">
             <div class="fes8-box wow fadeIn">
                <h3>LEGAL
                   SERVICES
@@ -671,7 +671,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="col-xs-12 col-sm-3 col-md-3 pull-up-mobiles">
             <div class="fes8-box wow fadeIn" data-wow-delay="200ms">
                <h3>RELOCATION
                   SERVICES
@@ -691,7 +691,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="col-xs-12 col-sm-3 col-md-3 pull-up-mobiles">
             <div class="fes8-box wow fadeIn" data-wow-delay="400ms">
                <h3>TAX
                   EFFICIENCY

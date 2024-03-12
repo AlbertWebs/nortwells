@@ -11224,6 +11224,13 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 .shop-ad-height {
   height:200px;
 }
+.pull-up-mobile{
+    margin-top:-80px !important;
+}
+
+.pull-up-mobiles{
+    margin-top:-120px !important;
+}
 
 
 .client-row img{
