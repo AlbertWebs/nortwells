@@ -167,7 +167,7 @@
                      data-splitout="none"
                      data-elementdelay="0.1"
                      data-endelementdelay="0.1"
-                     style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; font-size:20px; margin:0 auto !important;">Law & Investment Firm<span class="slash-divider-10"></span>
+                     style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; font-size:20px; margin:0 auto !important;">Consulting  Firm<span class="slash-divider-10"></span>
                   </div>
                   </center>
                   <!-- LAYER NR. 3 -->
@@ -311,312 +311,38 @@
             </p>
             --}}
             <div class="row">
-               <a  data-toggle="modal" data-target=".bs-example-modal-lg">
-                  <div class="col-md-6 col-sm-6" style="min-height:200">
-                     <div class="fes7-box wow fadeIn" >
-                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal;">D2 Entrepreneur Visa</h3>
-                        <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal" >
-                           Aimed at providing authorization for foreigners (non-EU/EEA/Swiss) who have invested or want to make an investment operation through financial means available in Portugal.
-                        </p>
-                     </div>
-                  </div>
-               </a>
-               {{--  --}}
-               <div class="modal fade bs-example-modal-lg bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg">
-                     <div class="modal-body">
-                        <div class="modal-content">
-                           <div class="modal-header">
-                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                              <h4 class="modal-title" id="myLargeModalLabel" style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D2 Entrepreneur Visa</h4>
-                           </div>
-                           <div class="modal-body">
-                              <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                                 {{--  --}}
-                                 <i>Requirements:</i><br>
-                                 * A solid business plan showing investment or intention of investment in Portugal, including the
-                                 nature, value, and time range of the outlay. The economic, social, scientific, technological,
-                                 environmental, or cultural worth of the investment, as well as the development of job opportunities, will
-                                 strengthen the application.<br><br>
-                                 * Evidence of having established a corporation under Portuguese jurisdiction or having adequate
-                                 financial resources in Portugal, as well as demonstrating financial stability and viability for the
-                                 company during its stay in the country.
-                                 {{--  --}}
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               {{--  --}}
-               {{--  --}}
-               <a  data-toggle="modal" data-target=".bs-example-modal-lg-2">
-                  <div class="col-md-6 col-sm-6" style="min-height:200">
-                     <div class="fes7-box wow fadeIn" >
-                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D3 Highly Qualified Individuals Visa</h3>
-                        <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal" >
-                           Aimed at non-EU citizens with higher education or higher professional technical qualifications - who have a work contract or a promise of work contract for at least 12 months.
-                        </p>
-                     </div>
-                  </div>
-               </a>
-               {{--  --}}
-               <div class="modal fade bs-example-modal-lg-2 bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg">
-                     <div class="modal-body">
-                        <div class="modal-content">
-                           <div class="modal-header">
-                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                              <h4 class="modal-title" id="myLargeModalLabel" style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D3 Highly Qualified Individuals Visa</h4>
-                           </div>
-                           <div class="modal-body">
-                              <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                                 {{--  --}}
-                                 <i>Requirements:</i><br>
-                                 * A professional certificate, where required, for regulated, highly qualified professional positions, as
-                                 determined by Law Nr. 9/2009, 4th March, or by specific legislation governing the recognition of
-                                 professional qualifications as compulsory for a particular professional role, which must be clearly
-                                 outlined in the employment contract or formal job offer.<br><br>
-                                 * A valid employment contract or the promise of an employment contract which must be valid for a
-                                 minimum period of 12 months.<br><br>
-                                 * A monthly pay of at least 1.5X the Portuguese annual minimum gross salary, or 3X the indexed
-                                 value of social welfare support (IAS).<br><br>
-                                 {{--  --}}
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               {{--  --}}
 
-               {{--  --}}
+               @include('gv')
+
+               @include('d8')
+
+
 
             </div>
             <div class="row">
-                <a  data-toggle="modal" data-target=".bs-example-modal-lg-8">
-                    <div class="col-md-6 col-sm-6" >
-                       <div class="fes7-box wow fadeIn" >
-                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D4 Study Visa</h3>
-                          <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal" >
-                             Aimed at foreign citizens who intend to enroll in a university or a Polytechnic Education Institution.
-                          </p>
-                       </div>
-                    </div>
-                 </a>
-
-                 <div class="modal fade bs-example-modal-lg-8 bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                       <div class="modal-body">
-                          <div class="modal-content">
-                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title" id="myLargeModalLabel" style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D4 Study Visa</h4>
-                             </div>
-                             <div class="modal-body">
-                                <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                                   {{--  --}}
-                                   <i>Requirements:</i><br>
-                                   * Letter of acceptance from a university in Portugal, as well as proof of payment of the tuition fees or
-                                   demonstration of scholarship.<br>
-                                   * A valid proof of residency in Portugal.
-                                   {{--  --}}
-                                </p>
-                             </div>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
-                 <a  data-toggle="modal" data-target=".bs-example-modal-lg-9">
-                    <div class="col-md-6 col-sm-6" >
-                       <div class="fes7-box wow fadeIn" >
-                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D6 Family Reunion Visa</h3>
-                          <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                             Aimed at family members of a resident in Portugal also to live, work and study in the country.
-                          </p>
-                       </div>
-                    </div>
-                 </a>
-
-                 <div class="modal fade bs-example-modal-lg-9 bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                       <div class="modal-body">
-                          <div class="modal-content">
-                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title" id="myLargeModalLabel" style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D6 Family Reunion Visa</h4>
-                             </div>
-                             <div class="modal-body">
-                                <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                                   {{--  --}}
-                                   <i>Requirements:</i><br>
-                                   * Evidence of family connections and entitlement to family reunification in Portugal.
-                                   {{--  --}}
-                                </p>
-                             </div>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
+                @include('d4')
+                 {{-- D6 --}}
+                 @include('d3')
             </div>
             {{--  --}}
          </div>
          <div class="col-md-6  fes7-text-cont">
-            {{--
-            <p class="mb-60">
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-            </p>
-            --}}
+
             <div class="row">
-                <a  data-toggle="modal" data-target=".bs-example-modal-lg-4">
-                    <div class="col-md-6 col-sm-6" >
-                       <div class="fes7-box wow fadeIn" >
-                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D7 Passive Income Visa</h3>
-                          <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                             Aimed at non-EU/EEA/Swiss citizen who intend to relocate to Portugal and have a reasonable net regular passive income.
-                             <br><br><br><br>
-                          </p>
-                       </div>
-                    </div>
-                 </a>
+                @include('d7')
                  {{--  --}}
-                 <div class="modal fade bs-example-modal-lg-4 bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                       <div class="modal-body">
-                          <div class="modal-content">
-                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title" id="myLargeModalLabel" style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D7 Passive Income Visa</h4>
-                             </div>
-                             <div class="modal-body">
-                                <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                                   {{--  --}}
-                                   <i>Requirements:</i><br>
-                                   * Proof of consistent and steady passive income. It should be at least equivalent to the Portuguese
-                                   minimum wage, which is now set at EUR 820 per month or EUR 9840 per year. Pensions, rental
-                                   income, dividends, and other non-salaried choices all contribute to passive income.<br>
-                                   * Adult family member reunification requires an additional 50% of the primary applicant&#39;s passive
-                                   income, with a 30% increase for dependent children.<br>
-                                   * A valid proof of residency in Portugal through at least a 6-12 month lease agreement (depending on
-                                   the Embassy/Consulate).
-                                   {{--  --}}
-                                </p>
-                             </div>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
-                 {{--  --}}
-                 <a  data-toggle="modal" data-target=".bs-example-modal-lg-5" class="pull-up-mobile">
-                    <div class="col-md-6 col-sm-6" >
-                       <div class="fes7-box wow fadeIn pull-up-mobile" >
-                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D8 Digital Nomad Visa</h3>
-                          <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                             Aimed at non-EU/EEA/Swiss citizens digital nomads, freelancers, and remote workers.
-                          </p>
-                       </div>
-                    </div>
-                 </a>
-                 {{--  --}}
-                 <div class="modal fade bs-example-modal-lg-5 bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                       <div class="modal-body">
-                          <div class="modal-content">
-                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title" id="myLargeModalLabel" style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D8 Digital Nomad Visa</h4>
-                             </div>
-                             <div class="modal-body">
-                                <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                                   {{--  --}}
-                                   <i>Requirements:</i><br>
-                                   * The applicant must be employed by a company outside of Portugal or self-employed.<br>
-                                   * Proof of salary over EUR 3280 grossly per month, equivalent to four times the minimum wage in
-                                   Portugal.<br>
-                                   * A valid proof of residency in Portugal through at least a 6-12 month lease agreement (depending on
-                                   the Embassy/Consulate).
-                                   {{--  --}}
-                                </p>
-                             </div>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
+
+                 @include('d6')
                  {{--  --}}
             </div>
             {{--  --}}
             <div class="row">
-                <a  data-toggle="modal" data-target=".bs-example-modal-lg-6">
-                    <div class="col-md-6 col-sm-6" >
-                       <div class="fes7-box wow fadeIn" >
-                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">Express of Interest Residence Permit</h3>
-                          <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                             It is aimed at citizens of the Community of Portuguese-Speaking Countries.
-                          </p>
-                       </div>
-                    </div>
-                 </a>
 
-                 <div class="modal fade bs-example-modal-lg-6 bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                       <div class="modal-body">
-                          <div class="modal-content">
-                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title" id="myLargeModalLabel" style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">EXPRESS OF INTEREST Residence Permit</h4>
-                             </div>
-                             <div class="modal-body">
-                                <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                                   {{--  --}}
-                                   <i>Requirements:</i><br>
-                                   * Employment contract; or Promise of an employment contract; or Document proving the
-                                      establishment of a company, declaring the start of activities with the Tax Administration and Social<br>
-                                      Security as an individual; or Service provision contract for the exercise of a liberal profession.
-                                   {{--  --}}
-                                </p>
-                             </div>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
-                 <a  data-toggle="modal" data-target=".bs-example-modal-lg-7">
-                    <div class="col-md-6 col-sm-6" >
-                       <div class="fes7-box wow fadeIn" >
-                        <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">Golden Visa - Portuguese Residence by Investment</h3>
-                          <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                             It is aimed at investors who invest in real estate, fund shares, business, cultural and scientific projects, and transfer of capital.
-                          </p>
-                       </div>
-                    </div>
-                 </a>
 
-                 <div class="modal fade bs-example-modal-lg-7 bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                       <div class="modal-body">
-                          <div class="modal-content">
-                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title" id="myLargeModalLabel" style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">Golden Visa - Portuguese Residence by Investment</h4>
-                             </div>
-                             <div class="modal-body">
-                                <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
-                                   {{--  --}}
-                                   <i>Requirements:</i><br>
-                                   * Contribution of at least EUR 500,000 to a qualified investment fund, such as a private equity or
-                                      venture capital investment fund.<br>
+                 {{-- GV --}}
+                 @include('d2')
 
-                                      * Investment of EUR 500,000 in the incorporation of a commercial company in Portugal or
-                                      reinforcement of a company&#39;s share capital with a head office located in a national territory associated
-                                      with the creation or maintenance of five or ten jobs (five of which are permanent).<br>
-                                      * Investment or donation in the arts of national cultural heritage reconstruction with a minimum
-                                      donation of EUR 250,000.
-                                   {{--  --}}
-                                </p>
-                             </div>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
+                 {{-- GV --}}
             </div>
             {{--  --}}
          </div>
@@ -633,18 +359,17 @@
       <div class="row">
          <div class="col-xs-12 col-sm-3 col-md-3">
             <div class="fes8-box wow fadeIn">
-               <h3>INVESTMENT
-                  ADVISORY
+               <h3>BUSINESS SOLUTIONS
                </h3>
                <div>
                   <div style="min-height:250px">
                      <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
                         <p style="font-size:16px;">
-                           Real Estate Properties<br>
-                           Commercial Properties<br>
+                            Real Estate Advisory Services<br>
+                            Property Management<br>
                            Guarantee Return Investments<br>
-                           Investment Funds<br>
-                           Setting up a Business<br>
+                           Business Set Up<br>
+                           Operational Guidance<br>
                         </p>
                      </blockquote>
                   </div>
@@ -684,7 +409,7 @@
                            Bank account opening<br>
                            National ID Numbers<br>
                            School applications<br>
-                           Citizenship<br>
+                           Citizenship Services<br>
                         </p>
                      </blockquote>
                   </div>
@@ -770,21 +495,18 @@
             <div class="row">
                <div class="col-md-4 blog2-post-title-cont">
                   <div class="post-prev-date-cont">
-                     <span class="blog2-date-numb">21</span><span class="blog2-month">July</span>
+
+                    <span class="blog2-date-numb" style="font-size:25px">2024 </span><span class="blog2-month">June</span>
                   </div>
                   <div class="post-prev-title">
-                     <h3><a href="#">GOLDEN VISA</a></h3>
+                     <h3><a href="#">RESIDENCE PERMITS & VISAS</a></h3>
                   </div>
                </div>
                <div class="col-md-8">
                   <div class="blog2-post-prev-text">
                      <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
                      <p style="font-size:16px;">
-                        The Golden Visa program will remain active with certain investment
-                        options. However, you will no longer be able to apply for a Golden Visa
-                        through a real estate investment or a real estate related fund investment.
-                        The new law will not apply retroactively to current applications and
-                        renewals.
+                        Following the presentation and approval of the Portuguese Migration Action Plan, Decree-Law No. 41-A/2024 was published on June 28, 2024. This decree extends the validity of documents (e.g., visas and permits) that grant permission to reside and work in Portugal until June 30, 2025.
                      </p>
                   </div>
                </div>
@@ -795,17 +517,17 @@
             <div class="row">
                <div class="col-md-4 blog2-post-title-cont">
                   <div class="post-prev-date-cont">
-                     <span class="blog2-date-numb">20</span><span class="blog2-month">July</span>
+                     <span class="blog2-date-numb" style="font-size:25px">2023 </span><span class="blog2-month">October</span>
                   </div>
                   <div class="post-prev-title">
-                     <h3><a href="#">DIGITAL NOMADS</a></h3>
-                  </div>
+                    <h3><a href="#">GOLDEN VISA</a></h3>
+                 </div>
                </div>
                <div class="col-md-8">
                   <div class="blog2-post-prev-text">
                      <blockquote class="quote" style="font-size:14px; margin:0px; padding:0px">
                         <p style="font-size:16px;">
-                           Portugal most sought out by digital nomads.
+                            The Golden Visa program will remain active with certain investment options. However, you will no longer be able to apply for a Golden Visa through a real estate investment or a real estate related fund investment. The new law will not apply retroactively to current applications and renewals.
                         </p>
                      </blockquote>
                   </div>
@@ -976,7 +698,7 @@
                </div>
                <div class="cis-text">
                   <h3><span class="bold">ADDRESS</span></h3>
-                  <p>Campo dos Martires de Patria, 144ª,Porto</p>
+                  <p>Campo dos Martires de Patria, 144ª, Porto</p>
                </div>
             </div>
          </div>

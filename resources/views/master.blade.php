@@ -133,7 +133,7 @@
                       <!-- Social Links -->
                       <div class="footer-2-soc-a right">
                          <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                         <a href="#" title="Facebook" target="_blank"><i class="fa fa-instagram"></i></a>
+                         <a href="https://www.instagram.com/nortwell_law_investment?igsh=MWR1Nnpsdjh4YzI0dQ==" title="Facebook" target="_blank"><i class="fa fa-instagram"></i></a>
                          <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
                          <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
                       </div>
