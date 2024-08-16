@@ -367,7 +367,7 @@
                         <p style="font-size:16px;">
                             Real Estate Advisory Services<br>
                             Property Management<br>
-                           Guarantee Return Investments<br>
+                           {{-- Guarantee Return Investments<br> --}}
                            Business Set Up<br>
                            Operational Guidance<br>
                         </p>

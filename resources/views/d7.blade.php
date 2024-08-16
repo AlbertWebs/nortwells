@@ -1,10 +1,10 @@
-  <a  data-toggle="modal" data-target=".bs-example-modal-lg-4">
+                <a  data-toggle="modal" data-target=".bs-example-modal-lg-4">
                     <div class="col-md-6 col-sm-6" >
                        <div class="fes7-box wow fadeIn" >
                         <h3 style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">D7 Passive Income Visa</h3>
                           <p style="font-family: 'Lato',Arial,Helvetica,sans-serif; font-style:normal">
                              Aimed at non-EU/EEA/Swiss citizen who intend to relocate to Portugal and have a reasonable net regular passive income.
-                             <br><br><br><br>
+                             <br><br>
                           </p>
                        </div>
                     </div>
