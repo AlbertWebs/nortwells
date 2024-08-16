@@ -698,7 +698,7 @@
                </div>
                <div class="cis-text">
                   <h3><span class="bold">ADDRESS</span></h3>
-                  <p>Campo dos Martires de Patria, 144ª, Porto</p>
+                  <p>Campo dos Martires de Patria, 144A, Porto</p>
                </div>
             </div>
          </div>
